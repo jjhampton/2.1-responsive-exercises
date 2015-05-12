@@ -1,0 +1,27 @@
+body {
+  background-color: #5ca3d6;
+  box-sizing: border-box;
+}
+
+.uppercase {
+  text-decoration: uppercase;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+input {
+  border: 2px solid #fff;
+  background-color: #5ca3d6;
+
+}
+
+.column-3 {
+  display: inline-block;
+  width: 33%;
+  vertical-align: bottom;
+  /*delete border */
+  border: 1px solid black;
+}
