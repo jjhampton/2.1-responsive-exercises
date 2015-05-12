@@ -11,8 +11,9 @@ body {
    font-style: italic;
 }
 
-.uppercase {
-  text-decoration: uppercase;
+p {
+   color: #fff;
+   text-transform: uppercase;
 }
 
 .container {
@@ -28,13 +29,15 @@ input[type="text"], textarea {
 
 select {
   display: block;
+  background-color: #5ca3d6;
+  border: 1px solid #85a4bb;
+  color: #fff;
 }
 
 .column-3 {
   display: block;
   max-width: 100%;
   vertical-align: top;
-  border: 1px solid black;
   padding-left: 10px;
   padding-right: 10px;
 }

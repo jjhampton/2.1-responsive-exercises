@@ -36,8 +36,12 @@ select {
 
 .column-3 {
   display: inline-block;
-  width: 33%;
+  width: 50%;
   vertical-align: top;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+div.column-3:last-child {
+  display: block;
 }
