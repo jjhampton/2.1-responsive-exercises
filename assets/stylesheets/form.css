@@ -1,6 +1,14 @@
+* {
+  -webkit-box-sizing: border-box;
+}
+
 body {
   background-color: #5ca3d6;
-  box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+   color: #2a6b99;
+   font-style: italic;
 }
 
 .uppercase {
@@ -12,16 +20,21 @@ body {
   max-width: 1280px;
 }
 
-input {
+input[type="text"], textarea {
   border: 2px solid #fff;
   background-color: #5ca3d6;
+  width: 100%;
+}
 
+select {
+  display: block;
 }
 
 .column-3 {
   display: inline-block;
   width: 33%;
-  vertical-align: bottom;
-  /*delete border */
+  vertical-align: top;
   border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
