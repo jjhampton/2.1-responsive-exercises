@@ -5,7 +5,9 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <link rel="stylesheet" href="assets/stylesheets/form.css">
+    <link rel="stylesheet" media="(min-width: 626px)" href="assets/stylesheets/form.css">
+    <link rel="stylesheet" media="(max-width: 625px) and (min-width: 466px)" href="assets/stylesheets/form-middle.css">
+    <link rel="stylesheet" media="(max-width: 465px) and (min-width: 0px)" href="assets/stylesheets/form-mobile.css">
   </head>
   <body>
     <div class="container">
@@ -33,7 +35,8 @@
         <textarea name="comment"></textarea>
         <p>Occupation</p>
         <select name="occupation">
-          <option value="plumber" selected>Plumber</option>
+          <option value="" selected>Choose an occupation</option>
+          <option value="plumber">Plumber</option>
           <option value="police-officer">Police Officer</option>
           <option value="web-developer">Web Developer</option>
         </select>
@@ -46,9 +49,10 @@
       --><div class="column-3">
         <p>Type of Talent</p>
         <select name="type-of-talent">
-          <option value="athletic" selected>Plumber</option>
-          <option value="musical">Police Officer</option>
-          <option value="artistic">Web Developer</option>
+          <option value="" selected>Choose a talent</option>
+          <option value="athletic">Athletic</option>
+          <option value="musical">Musical</option>
+          <option value="artistic">Artistic</option>
         </select>
         <p>Favorite Drink</p>
         <input type="text" placeholder="Green Tea">
